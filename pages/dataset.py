@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 dash.register_page(__name__, path='/dataset', name="Dataset 📋")
 
 ####################### LOAD DATASET #############################
-cic_df = pd.read_csv("C:\\Users\\jongb\\Desktop\\multipage_dash_dashboard-main\\sample_ft_dos.csv")
+cic_df = pd.read_csv("pages/dataset.py/sample_ft_dos.csv")
 
 
 # Take the first 10 rows of the DataFrame
