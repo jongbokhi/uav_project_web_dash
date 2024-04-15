@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html, callback
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
-
+print("Dash version:", dash.__version__)
 # Initialize the Dash app
 dash.register_page(__name__, path='/survived', name="Result 📊")
 
